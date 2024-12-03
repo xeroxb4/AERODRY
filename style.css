@@ -57,13 +57,13 @@ header {
 .content-slide {
     min-height: 100vh;
     width: 100%;
-    background-image: url(/img/agric0.jpg);
+    background-image: url(./img/nuts-arrangement-with-copy-space.jpg);
     background-size: cover;
     background-position: center;
     transition: 5s;
     background-repeat: no-repeat;
     animation-name: animate;
-    animation-duration: 10s;
+    animation-duration: 60s;
     animation-direction: alternate-reverse;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
@@ -89,7 +89,7 @@ main {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: rgb(255, 255, 255);
     font-weight: 700;
     margin-top: 100px;
@@ -97,10 +97,12 @@ h1 {
 }
 
 p {
-    color: #070707;
-    font-size: 1.4rem;
+    color: #f8f6f7;
+    font-size: 1.8rem;
+    font-weight: 700;
     margin-top: 20px;
     animation: slideUp 3s ease-in-out;
+    
 }
 
 /* Button Styling */
@@ -194,44 +196,44 @@ p {
 /* Keyframe animation to slide through images one by one every 5 seconds */
 @keyframes animate {
     0% {
-        background-image: url(.//img/agric4.avif);
+        background-image: url(./img/agricultural-barley-wheat-background-cereal-farm-generate-ai_98402-136291.jpg);
     }
 
     ;
 
     20% {
-        background-image: url(./img/agridryer3img.jpg)
+        background-image: url(./img/install\ 3.jpg)
     }
 
     ;
 
     40% {
-        background-image: url(./img/agridryer1.jpg)
+        background-image: url(./img/nuts-arrangement-with-copy-space.jpg)
     }
 
     ;
 
     60% {
-        background-image: url(./img/agric2.avif)
+        background-image: url(./img/install\ 3.jpg)
     }
 
     ;
 
     80% {
-        background-image: url(./img/agric4.avif)
+        background-image: url(./img/pin6.jpg)
     }
 
     ;
 
     100% {
-        background-image: url(./img/agric8.jpg)
+        background-image: url(./img/nuts-arrangement-with-copy-space.jpg)
     }
 
     ;
 
-    120% {
-        background-image: url(/img/agric0.jpg)
-    }
+    /* 120% {
+        background-image: url(./img/agric3.jpg)
+    } */
 
     ;
 
@@ -243,11 +245,13 @@ p {
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
+
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        
     }
 
     .nav-links {
@@ -269,7 +273,7 @@ p {
 }
 
 #services {
-    background-color: #f7f7f7;
+    background-color: #4c4e52;
 }
 
 #about {
@@ -295,6 +299,29 @@ section p {
 }
 
 /* Specific Styles for Products */
+
+.products-intro {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+
+.product-detail {
+    grid-column: span 2; /* Ensures the text spans across the grid */
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
 .products-section .product-grid {
     display: flex;
     justify-content: center;

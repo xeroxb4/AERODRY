@@ -21,7 +21,7 @@ function moveSlide(step) {
 }
 
 // Set interval for automatic slide change every 5 seconds
-let slideInterval = setInterval(() => moveSlide(1), 5000); // 5000ms = 5 seconds
+let slideInterval = setInterval(() => moveSlide(1), 10000); // 5000ms = 5 seconds
 
 // Stop the auto-sliding when the user manually interacts
 function stopAutoSlide() {
